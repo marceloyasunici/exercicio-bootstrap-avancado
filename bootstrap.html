@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKW - Jujutsu Kaisen World</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <style>
+        #about {
+            display: flex;
+        }
+
+        .section-about {
+            margin-top: 56px;
+        }
+
+        .section-about-description {
+            margin-left: 16px;
+        }
+
+        footer li {
+            list-style: none;
+            
+        }
+
+        footer li img {
+            height: 32px;
+        }
+
+        footer li {
+            display: inline;
+        }
+
+        .section-cards {
+            margin-top: 56px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+
+            <!--header-->
+            <header id="cabecalho">
+                <div class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <h1>Jujutsu Kaisen World</h1>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#personagens">Personagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#social-medias">Mídias Sociais</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <!--carousel-->
+        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/carousel1.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/carousel2.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/carousel3.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+            </div>
+        </div>
+
+
+        <!--cards-->
+        <div id="personagens" class="section-cards container">
+            <h1>Personagens</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Yuji Itadori.jpg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Iuji Itadori</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas tempore accusamus sunt sint quae doloribus aut autem provident. Itaque ipsum magnam possimus id repellat illum excepturi officia officiis aspernatur.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Satoru Gojo.jpeg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Satoru Gojo</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellat veritatis accusantium vitae quia temporibus deleniti cumque eligendi aut facilis velit aperiam cupiditate commodi, reprehenderit ipsum minima at maxime iste!
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Megumi Fushiguro.jpeg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Megumi Fushiguro</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis eveniet nam. Consectetur quaerat error aut aliquam facere? Eligendi eum vero commodi? Nemo ducimus atque sed inventore sit quia amet.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Nobara Kugisaki.jpeg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Nobara Kugisaki</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolores quos beatae labore, minus laboriosam nam qui praesentium, nulla sequi accusamus temporibus reprehenderit, dolorum pariatur? Atque beatae cupiditate nam tempore.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Suguru Geto.jpeg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Suguru Geto</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eligendi fugit quibusdam voluptatum cum eos commodi reprehenderit similique ipsa veritatis nemo pariatur, at voluptates aliquid laborum, ut perferendis. Placeat!
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img id="img-card" src="./imagens/Ryomen Sukuna.jpeg">
+                        <div class="card-body"> <!--card-img-overlay-->
+                            <h4 class="card-title">Ryomen Sukuna</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum omnis, natus magni ullam ut laboriosam accusamus quaerat sed ipsum necessitatibus saepe illo rem eveniet cupiditate perferendis velit explicabo quis.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em<time> 15/07/2024 às 13:21</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+    
+
+        <!--footer-->
+        <footer id="social-medias">
+            <div class="container">
+                <p>
+                2024 &copy; JKW - Jujutsu Kaisen World - Todos os direitos reservados
+                </p>
+                <div class="d-flex justify-content">
+                    <ul class="container-flex">
+                        <li>
+                            <a>
+                                <img src="./imagens/facebook (1).png" alt="facebook" href="#">
+                            </a>
+                        </li>
+                        <li>
+                            <a >
+                                <img src="./imagens/instagram (1).png" alt="instagram" href="#">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="./imagens/youtube (1).png" alt="youtube" href="#">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
